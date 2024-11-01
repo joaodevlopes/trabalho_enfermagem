@@ -1,5 +1,135 @@
-.titulo_m{
-    background-color: aqua;
-    padding: 15px;
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.cotainer_nav{
+    display: flex;
+    background-color: #365B6D;
+    margin: -8px;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed; 
+    top: 0;
+    height: 17%;
+    width: 100%;
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+}
+
+body{
+    background-color:  #2d3e46;
+}
+
+
+.itens{
+    display: flex;
+    color: white;
+    margin-top: 42px;
+    gap: 70px;
+    justify-content: center;
+    
+}
+
+.itens a{
+    color: white;
+    text-decoration: none; 
+    transition: all 0.3s ease; /*trasição de efeitos*/
+}
+
+.itens a:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do texto */
+}
+
+.itens a:active {
+    transform: scale(0.95); 
+    color: #FFD700;
+}
+
+.imagem_i{
+    margin-left: -9px;
+    margin-top: 350px;
+}
+
+.item_secao1{
+    color: white;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 340px;
+}
+
+.imagem_ilustrativa{
+    display: flex;
+
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.subtitulo_video {
+    display: flex;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    gap: 20px;
+    flex-direction: column; /* Garante que os parágrafos sejam empilhados verticalmente */
+    text-align: justify; /* Alinha o texto de forma justificada */
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas para melhorar a legibilidade */
+}
+
+.subtitulo_video p {
+    margin: 0; 
+}
+
+.introducao_especial{
+    color: white;
+    text-decoration: none; 
+    transition: all 0.3s ease; /*trasição de efeitos*/
+    cursor: auto;
+    margin-left: 6%;
+}
+
+
+
+.introducao_especial:hover{
+    transform: scale(1.2); /* Aumenta o tamanho do texto */
+
+}
+
+.texo_higie{
+    color: white;
+    text-decoration: none; 
+    transition: all 0.3s ease; /*trasição de efeitos*/
+    cursor: auto;
+    margin-bottom: 30%;
+    margin-right: 5%;
+}
+
+.texo_higie:hover{
+    transform: scale(1.2);
+}
+
+.passoapasso_texto{
+    color: white;
+    margin-top: 10%;
+    margin-left: 19%;
+}
+
+
+
+
+
+@media(max-width: 1115px) {
+    .imagem_i {
+        width: 100%; 
+        max-width: 600px; 
+    }
+
+    .item_secao1 {
+        width: 100%; 
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
 }
