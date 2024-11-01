@@ -1,0 +1,55 @@
+
+.cotainer_nav{
+    display: flex;
+    border: 2px solid red;
+    background-color: #365B6D;
+    margin: -8px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+body{
+    background-color:  #2d3e46;
+}
+
+
+.itens{
+    display: flex;
+    color: white;
+    margin-top: 42px;
+    gap: 70px;
+    justify-content: center;
+    
+}
+
+.imagem_i{
+    margin-left: -9px;
+    margin-top: 30px;
+}
+
+.item_secao1{
+    color: white;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.imagem_ilustrativa{
+    display: flex;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.subtitulo_video{
+    display: flex;
+    color: white;
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 50px;
+    gap: 20px;
+}
+
