@@ -1,74 +1,143 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/imgico.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Hygiene Safe</title>
-</head>
-<body>
-    <nav class="cotainer_nav">
 
-        <div class="imagem_logo"><img src="imagens/imglogobruto.jpg" alt="logo" width="108px"></div>
+    <link rel="shortcut icon" href="imagem/imgico.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hygiene Safe</title>
+
+</head>
+
+<body>
+    <nav class="container_nav">
+
+        <div class="imagem_logo"><img class="logo" src="imagem/imglogobruto.jpg" alt="logo" width="60px"></div>
+
+        <div class="menu-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 
         <div class="itens">
             <a href="#secao1"><h2>Início</h2></a>
-            <a href="#puxar_higiene"><h2>Higienização</h2></a>
+            <a href="#higienizacao"><h2>Higienização</h2></a>
             <a href="#passoapasso"><h2>Passo a Passo</h2></a>
             <a href="index2.html" target="_blank"><h2>Quiz interativo</h2></a>
-            <a href=""><h2>Sobre nós</h2></a>
+            <a href="#"><h2>Sobre nós</h2></a>
         </div>
+
     </nav>
 
-    <section  id="secao1" class="imagem_ilustrativa">
-        
-        <div class="imagem_i"><img src="imagens/imagem_representativa.jpg" alt="imgi" width="800px"></div>
+    <section class="primeira_imagem">
+        <img class="topo_img" src="imagem/imagemtopo.jpg" alt="primeira_imagem">
+    </section>
 
+    <br> <br>
+
+    <section id="secao1" class="imagem_ilustrativa">
         <div class="item_secao1">
             <h1 class="introducao_especial">Introdução</h1>
-            <p class="introducao`_p">A higienização das mãos é uma prática essencial no ambiente de enfermagem, pois ajuda a prevenir a transmissão de infecções. Manter as mãos limpas é crucial para a segurança dos pacientes e para a eficácia do cuidado prestado. No dia a dia do hospital, onde os pacientes podem ter a imunidade comprometida, seguir as diretrizes de higienização se torna ainda mais importante. Essa prática não só protege os pacientes, mas também demonstra o compromisso dos profissionais com a qualidade do atendimento e a prevenção de infecções. É um hábito que todos os enfermeiros devem incorporar em sua rotina para garantir um ambiente seguro e saudável.Além disso, a adesão a protocolos rigorosos de higienização das mãos contribui para a redução de infecções hospitalares, que são um desafio significativo na saúde pública. A Organização Mundial da Saúde (OMS) enfatiza que a higienização adequada das mãos é uma das intervenções mais eficazes para melhorar a segurança do paciente. Estudos demonstram que a taxa de infecções pode ser drasticamente reduzida quando a higiene das mãos é praticada de forma consistente.
-                </p>
 
+            <br>
+            
+            <div class="carrossel">
+                <div class="slides">
+                    <img class="imagem_repre" src="imagem/imagem_representativa.jpg" alt="Imagem de higienização das mãos">
+                    <img class="imagem_repre" src="imagem/img_representativa2.jpg" alt="Imagem de um profissional de saúde lavando as mãos">
+                    <img class="imagem_repre" src="imagem/img_representativa3.jpg" alt="Imagem de materiais de higiene">
+                </div>
+                <div class="slide-indicator">
+                    <span id="slideCounter"></span>
+                </div>
+                <button class="prev" onclick="moveSlide(-1)" aria-label="Slide anterior">❮</button>
+                <button class="next" onclick="moveSlide(1)" aria-label="Próximo slide">❯</button>
+            </div>
 
+            <br>
+            
+        </div>
+            <p class="introducao_p">
+                A higienização das mãos é fundamental na enfermagem. Aqui estão alguns pontos-chave:
+            </p>
 
+            <br>
+
+            <ul>
+                <li>✅ Previne infecções.</li>
+                <li>✅ Garante segurança aos pacientes.</li>
+                <li>✅ É uma prática essencial em ambientes de saúde.</li>
+            </ul>
+
+            <br>
+
+            <p>
+                Manter as mãos limpas é crucial para o cuidado prestado. <br> Seguir as diretrizes de higienização protege tanto os pacientes quanto os profissionais. <br>  <br> A OMS enfatiza a importância dessa prática para a segurança do paciente. 
+            </p>
 
         </div>
-        
+
+        <br> <br>
+
     </section>
 
     <section id="higienizacao" class="video">
-        <h1 class="texo_higie" id="puxar_higiene">Higienização</h1>
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/Zq-ejUt5mWE?si=kjKhuspjwbdTCawd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        
+        <h1 class="texo_higie">Higienização</h1>
+        <iframe src="https://www.youtube.com/embed/Zq-ejUt5mWE?si=kjKhuspjwbdTCawd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 
-    <section id="higienizacao" class="subtitulo_video">
-        <p>
-            A higienização das mãos é um aspecto vital na prática da enfermagem, com a principal razão sendo a prevenção de infecções, que podem comprometer a saúde dos pacientes. Em um ambiente hospitalar, onde a vulnerabilidade dos indivíduos é maior, garantir que as mãos estejam limpas é essencial para evitar a transmissão de patógenos.
-        </p>
+    <section id="higienizacao_texto" class="subtitulo_video">
+        <h2>Importância da Higienização das Mãos</h2>
 
-        <p>Quando não há sujeira visível, a técnica recomendada é a higienização com álcool em gel, que deve ser aplicada em quantidade suficiente para cobrir toda a superfície das mãos. É importante esfregar as mãos até que o produto seque completamente, garantindo que a eficácia do álcool seja mantida.
-        A higienização das mãos se torna ainda mais crítica em determinadas situações, como antes de realizar procedimentos invasivos, após o contato com fluidos corporais ou após o manuseio de equipamentos médicos. Nessas ocasiões, a atenção à limpeza das mãos é fundamental para proteger tanto o paciente quanto o profissional.
-        </p>
+        <br>
 
         <p>
-            Quanto à lavagem das mãos com água e sabão, a duração mínima recomendada é de pelo menos 20 segundos. Isso inclui esfregar todas as áreas, como entre os dedos e sob as unhas, para garantir que não haja resíduos.
-            Ao optar pelo uso de álcool em gel, a ação essencial para garantir sua eficácia é assegurar que todas as partes das mãos sejam completamente cobertas pelo produto e que ele seja aplicado de forma suficiente. A fricção contínua é crucial para remover micro-organismos.
-            Em resumo, a higienização adequada das mãos é um componente indispensável na enfermagem, envolvendo técnicas específicas e atenção em momentos críticos, contribuindo significativamente para a segurança do paciente e a qualidade do atendimento.
+            A higienização das mãos é vital para prevenir infecções que comprometem a saúde dos pacientes. Em hospitais, onde a vulnerabilidade é maior, garantir que as mãos estejam limpas é essencial.
         </p>
+
+        <br>
+
+        <h3>Técnicas de Higienização</h3>
+
+        <ul>
+            <li>🔹 Álcool em Gel : Use uma quantidade suficiente e esfregue até secar. Normalmente usado quando não ha sujeira visível</li>
+            <li>🔹 Água e Sabão: Lave por pelo menos 20 segundos, incluindo entre os dedos e sob as unhas.</li>
+        </ul>
+
+        <p>
+            A prática consistente dessas técnicas é crucial para a segurança de todos.
+        </p>
+        <br> <br>
+
     </section>
 
     <section id="passoapasso">
-        <h1 class="passoapasso_texto">Passo a passo</h1>
+        <h1 class="passoapasso_texto">Passo a Passo:</h1>
+        
+        <br>
 
+        <div class="video-container">
+            <div class="video-wrapper">
+                <h3> MANEIRA <span class="Incorreto">INCORRETA</span></h3>
+                <video src="video/Vídeo do WhatsApp de 2024-11-01 à(s) 17.30.13_1564173d.mp4" width="400" height="300" controls muted></video>
+                <p class="video-comment">Este vídeo demonstra a maneira incorreta de higienizar as mãos. Preste atenção nos erros comuns. <br> <br> ❌Não retirar os objetos das mãos <br> ❌Lavar apenas com Água <br> ❌Secar na própria roupa</p>
+            </div>
+            
+            <div class="video-wrapper">
+                <h3> MANEIRA <span class="correta">CORRETA</span></h3>
+                <video src="video/Vídeo do WhatsApp de 2024-11-01 à(s) 17.30.15_4b3900fa.mp4" width="400" height="300" controls muted></video>
+                <p class="video-comment">Neste vídeo, você verá a maneira correta de higienizar as mãos, seguindo as diretrizes da OMS. <br> <br> ✅Retira os objetos <br> ✅Molha as mãos com água <br>✅ Aplica sabão <br> ✅Ensaboa as palmas das mãos, costas, entre as unhas, polegares e pulsos. <br> ✅ enxague totalmente <br> ✅feche a torneira com os braços. <br> ✅Seque totalmente e jogue em ambiente apropiado</p>
+            </div>
+        </div>
     </section>
 
-    
-</body>
-</html>
+    <script src="javascript.js"></script>
 
-
-    </section>
 </body>
 </html>
