@@ -1,35 +1,34 @@
- /* Cor de fundo suave para a página */
- body {
-    background-color: #f0f8ff; /* Azul claro */
+body {
+    background-color: #f0f8ff; 
 }
 
-/* Estilo do cabeçalho */
+
 header {
     text-align: center;
     margin-bottom: 30px;
     padding: 50px 20px;
-    background-color: #4fa3f7; /* Azul mais forte */
+    background-color: #4fa3f7; 
     color: white;
     border-radius: 10px;
 }
 
-/* Estilo das imagens dos programadores */
+
 
 .card-img-top {
     border-radius: 50%;
-    width: 200px;  /* Aumentando a largura da imagem */
-    height: 200px; /* Aumentando a altura da imagem */
+    width: 200px; 
+    height: 200px; 
     object-fit: cover;
-    border: 5px solid #4fa3f7; /* Borda azul em torno da imagem */
+    border: 5px solid #4fa3f7; 
 }
 
-/* Estilo das informações no card */
+
 .card-body {
     text-align: center;
     padding: 20px;
 }
 
-/* Estilo do texto dentro do card */
+
 .card-title {
     font-size: 1.2rem;
     font-weight: bold;
@@ -41,28 +40,45 @@ header {
     color: #666;
 }
 
-/* Cor do botão do GitHub */
+
 .btn-primary {
     background-color: #4fa3f7;
     border-color: #4fa3f7;
 }
 
-/* Hover do botão */
+
 .btn-primary:hover {
     background-color: #3a8cdb;
     border-color: #3a8cdb;
 }
 
-/* Ajustes no container */
+
 .container {
     margin-top: 50px;
 }
 
-.retri{
-    margin-left: 50%;
+
+.retri {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #4fa3f7;
     border: none;
-    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.retri a{
     color: white;
+    display: flex;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+} 
+
+.retri:hover {
+    background-color: #3a8cdb;
     
 }
-

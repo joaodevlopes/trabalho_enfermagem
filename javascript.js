@@ -20,4 +20,4 @@ function moveSlide(direction) {
 // Opção para mover automaticamente as imagens a cada 3 segundos (opcional)
 setInterval(() => {
     moveSlide(1);
-}, 3000);
+}, 2500);
