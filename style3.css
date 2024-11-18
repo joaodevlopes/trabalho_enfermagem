@@ -1,5 +1,4 @@
-
-  body {
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -51,4 +50,10 @@ footer img {
     width: 25px;
     vertical-align: middle;
     margin-right: 5px;
+}
+
+.branco{
+    color: black;
+    background-color: white;
+    text-align: center;
 }
